@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <title>Pricing Component</title>
+  </head>
+  <body>
+    <main class="main">
+      <header class="header-section">
+        <h2>Our Pricing</h2>
+        <form action="/" class="form-group">
+          <label for="checkbox" class="checkbox-label annually">Annually</label>
+          <input
+            type="checkbox"
+            name="checkbox"
+            id="checkbox"
+            class="checkbox"
+          />
+          <label for="checkbox" class="ball-label checkbox-label">
+            <div class="ball"></div>
+          </label>
+          <label for="checkbox" class="checkbox-label monthly">Monthly</label>
+        </form>
+      </header>
+      <section class="price-section">
+        <article class="card basic">
+          <p>Basic</p>
+          <h1>$<span class="price"></span></h1>
+          <p>500 GB Storage</p>
+          <p>2 users Allowed</p>
+          <p>Send up to 3 GB</p>
+          <button class="btn">learn more</button>
+        </article>
+        <article class="card professional">
+          <p>Professional</p>
+          <h1>$<span class="price"></span></h1>
+          <p>1 TB Storage</p>
+          <p>5 Users Allowed</p>
+          <p>Send up to 10 GB</p>
+          <button class="btn">Learn more</button>
+        </article>
+        <article class="card master">
+          <p>Master</p>
+          <h1>$<span class="price"></span></h1>
+          <p>2 TB Storage</p>
+          <p>10 Users Allowed</p>
+          <p>Send up to 20 GB</p>
+          <button class="btn">Learn more</button>
+        </article>
+      </section>
+    </main>
+    <my-profile class="my-profile">
+      Challenge by :
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor....
+      </a>
+      Coded by :
+      <a href="https://aeorherhe.netlify.app" target="_blank"
+        >Abraham Orherhe</a
+      >
+      <div class="my-profile-icons">
+        <a href="https://www.facebook.com/aeorherhe" target="_blank"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a href="https://www.instagram.com/aeorherhe/" target="_blank"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="https://twitter.com/aeorherhe" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+    </my-profile>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
