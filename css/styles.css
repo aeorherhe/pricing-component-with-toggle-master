@@ -105,6 +105,7 @@ input[type="checkbox"] {
   margin: 2rem 0;
   padding: 2rem;
   text-align: center;
+  transition: var(--transition);
 }
 
 .card h1 {
@@ -183,7 +184,7 @@ input[type="checkbox"] {
 }
 
 /* media query  */
-@media screen and (min-width: 65rem) {
+@media screen and (min-width: 63rem) {
   body {
     background: url(../images/bg-top.svg), url(../images/bg-bottom.svg);
     background-repeat: no-repeat, no-repeat;
@@ -191,7 +192,9 @@ input[type="checkbox"] {
   }
 
   .card {
+    width: 20rem;
     padding: 2rem 3rem;
+    transition: var(--transition);
   }
 
   .basic {
@@ -238,7 +241,7 @@ input[type="checkbox"] {
   margin: 0 5px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 35rem) {
   .my-profile {
     font-size: 12px;
   }
